@@ -1,0 +1,23 @@
+body {
+  background:#e7f1f1;
+  font-family: barlow semi condensed,-apple-system,BlinkMacSystemFont,helvetica neue,Helvetica,Arial,sans-serif;
+}
+
+.what-we-do-section {
+  padding: 20px;
+}
+
+.title {
+  color: #002855;
+  font-size: 3.4vw;
+  font-weight: 700;
+}
+
+.title::before {
+  content: '';
+  margin-left: -4vw;
+  padding-top: .55em;
+  position: absolute;
+  border-bottom: 5px solid #002855;
+  width: 3.2vw;
+}
