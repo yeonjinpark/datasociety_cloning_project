@@ -317,9 +317,11 @@ p{
 }
 
 .compress{
+  background: linear-gradient(to bottom,rgba(231,241,241,0) 0%,#e7f1f1 100%);
   overflow-y: hidden;
   height: 5.5em;
   position: relative;
+  bottom: 0;
 }
 
 .expand{
